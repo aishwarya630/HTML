@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML Forms Tutorial.</h2>
+    <form action="backend.php">
+        <label for="name"> Name: </label>
+        <div>
+           <input type="text" name="myName" id="name">
+        </div><br>
+        <label for="role">Role: </label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div><br>
+        <label for="email">Email: </label>
+        <div>
+           <input type="email" name="myEmail" id="email">
+        </div><br>
+        <label for="date">Date: </label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div><br>
+        <label for="bonus">Bonus: </label>
+        <div>
+            <input type="number" name="myBonus" id="bonus">
+        </div><br>
+        <label for="eligibility">Are you eligible? </label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="eligibility">
+        </div><br>
+        <label for="gender">Gender:  </label>
+        <div>
+            Male: <input type="radio" name="myGender" id=""> Female: <input type="radio" name="myGender" id=""> Others: <input type="radio" name="myGender" id="gender"> 
+        </div><br>
+        <label for="write">Write about yourself: </label>
+        <div>
+            <br><textarea name="myText" cols="30" rows="10"></textarea id="write"> 
+        </div><br>
+        <label for="car">Car: </label>
+        <div>
+            <select name="myCar" id="car">
+                <option value="ind" selected>Indica</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div><br>
+        <label for="submit"></label>
+        <div>
+            <input type="submit" value="Submit Now" id="submit">
+        </div><br>
+        <label for="reset"></label>
+        <div>
+            <input type="reset" value="Reset Now" id="reset">
+        </div><br>
+    </form>
+</body>
+</html>
